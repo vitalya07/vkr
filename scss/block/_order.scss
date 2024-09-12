@@ -1,0 +1,50 @@
+.order {
+    padding: 60px 0 60px 0;
+    background: #000;
+    &__title {
+        color: #fff;
+    }
+    &__info {
+        color: #fff;
+        font-family: "Montserrat", system-ui;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1.2px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    &__form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    &__input {
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        font-family: "Montserrat", system-ui;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1.2px;
+        cursor: pointer;
+        &:focus {
+            outline: 3px solid #ff6600;
+        }       
+    }
+    &__btn {
+        background: #ff6600;
+        color: #fff;
+        border-radius: 0;
+    }
+    &__checkbox {
+        max-width: 250px;
+        color: #fff;
+        &-click {
+            cursor: pointer;
+        }
+    }
+}

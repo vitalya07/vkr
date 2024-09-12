@@ -1,0 +1,23 @@
+.recal {
+    padding: 60px 0 0 0 ;
+    border: 3px solid #000;
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        &-img {
+            width: 64px;
+            height: 64px;
+        }
+        &-info {
+            color: #000;
+            font-family: "Montserrat", system-ui;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 1px;
+
+        }
+    }
+}

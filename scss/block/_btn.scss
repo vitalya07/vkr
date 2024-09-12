@@ -1,0 +1,22 @@
+.btn {
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    color: #fff;
+    background: #000;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", system-ui;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    transition: background .4s;
+    &:hover {
+        background: #ff6600;
+        box-shadow: 0 0 15px #ff6600;
+    }
+}
